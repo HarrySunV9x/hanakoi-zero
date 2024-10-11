@@ -20,4 +20,4 @@ if __name__ == "__main__":
 
     thread1.join()
     thread2.join()
-    thread3.start()
+    thread3.join()
