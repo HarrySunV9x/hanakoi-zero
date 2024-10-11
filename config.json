@@ -1,0 +1,12 @@
+{
+  "CHAT_RECORD_DATABASE_BASE_URL": "http://139.224.12.67:8090/api/collections/HanaChat/records",
+  "DATABASE_LOGIN_URL": "http://139.224.12.67:8090/api/collections/users/auth-with-password",
+  "DATABASE_IDENTIFY": "harrysunv9x@outlook.com",
+  "DATABASE_PASSWORD": "qq84145358",
+
+  "OLLAMA_URL": "http://localhost:11434/api/generate",
+
+  "PAINT_PROMPT_URL": "http://127.0.0.1:8188/prompt",
+  "PAINT_INPUT_IMAGE": "E:\\ComfyUI_windows_portable\\ComfyUI\\input\\input.png",
+  "PAINT_OUTPUT_IMAGE": "E:\\ComfyUI_windows_portable\\ComfyUI\\input\\input.png"
+}
