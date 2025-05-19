@@ -1,6 +1,6 @@
 import gradio as gr
 
-from invoke import normal_invoke, chat_invoke
+from brain.invoke import normal_invoke, chat_invoke
 
 with gr.Blocks() as normal_invoke_gradio:
     with gr.Row():

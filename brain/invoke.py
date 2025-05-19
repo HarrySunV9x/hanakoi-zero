@@ -3,9 +3,9 @@ import json
 
 from rich import print
 
-from chathistory import get_hana_chat
-from config import llm_config
-from prompt import hana_prompt, base_prompt, prompt_chat_hana
+from brain.chathistory import get_hana_chat
+from brain.config import llm_config
+from brain.prompt import hana_prompt, base_prompt, prompt_chat_hana
 
 url = llm_config.get("OLLAMA_URL")
 

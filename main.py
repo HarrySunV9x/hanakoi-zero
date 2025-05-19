@@ -6,7 +6,7 @@ main.py
 
 import threading
 
-from restful import start_uvicorn, painter_api, PromptRequest
+from restful import start_uvicorn
 from web import start_normal_invoke, start_chat_invoke
 
 if __name__ == "__main__":

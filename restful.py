@@ -9,9 +9,9 @@ from pydantic import BaseModel
 from rich import print
 from starlette.responses import FileResponse
 
-from comfyui import queue_prompt_text
-from config import llm_config
-from invoke import normal_invoke, chat_invoke
+from brain.comfyui import queue_prompt_text
+from brain.config import llm_config
+from brain.invoke import normal_invoke, chat_invoke
 
 app = FastAPI()
 

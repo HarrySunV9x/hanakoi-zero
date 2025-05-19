@@ -1,7 +1,6 @@
-import json
 import requests
 
-from config import llm_config
+from brain.config import llm_config
 
 
 class HanaChat:

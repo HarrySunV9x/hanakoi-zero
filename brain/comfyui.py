@@ -4,7 +4,7 @@ import random
 
 from rich import print
 
-from config import llm_config
+from brain.config import llm_config
 
 prompt_text = """
 {
